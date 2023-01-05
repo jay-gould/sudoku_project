@@ -4,7 +4,7 @@ if __name__ == "__main__":
   from google.colab import drive
   drive.mount('/content/drive/')                                                                             
   data_dir = '/content/drive/My Drive/self_projects/sudoku/'
-  img_path = data_dir+'sudoku_pic_4.png'
+  img_path = data_dir+'sudoku_pic_1.png'
 
   #imports 
   import sys
