@@ -1,0 +1,37 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.sudoku { 
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+ }
+
+.sudoku colgroup, tbody {
+     border: solid medium; 
+}
+
+.sudoku td { 
+    font-size: 2.4rem;
+    border: solid thin; height: 3.4rem;
+    width: 3.4rem;
+}
+
+.sudoku input {
+    width:1em; 
+    border:0; 
+    font-size:25pt; 
+    text-align:center; 
+    background-color: whitesmoke;
+}
